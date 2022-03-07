@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    /* Ignore borders when calculating the width */
+}
+
+header,footer {
+    height: 100px;
+    border: 5px solid blue;
+    float: left;
+    width: 100%;
+}
+
+#sec-one > section {
+    margin: 0px;
+    height: 100px;
+    border: 3px solid red;
+    float: left;
+    width: 33.3333%;
+}
+
+#sec-two > section {
+    margin: 0px;
+    height: 100px;
+    border: 3px solid green;
+    float: left;
+    width: 50%;
+}
